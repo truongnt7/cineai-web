@@ -1,0 +1,406 @@
+{
+  "brand": {
+    "name": "CineAI",
+    "tagline": "AI FILMMAKING STUDIO"
+  },
+  "ui": {
+    "login": "Log in",
+    "startCreating": "Start creating",
+    "search": "Search",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "perMonth": "/month",
+    "andMore": "and more…",
+    "productsEyebrow": "Products",
+    "productsHeadline": "Two ways to make films. One AI ecosystem.",
+    "emptyShowcase": "No videos in this category yet.",
+    "footerBlurb": "turn ideas into films with AI.",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "menu": "Menu"
+  },
+  "nav": [
+    {
+      "label": "Products",
+      "href": "#products"
+    },
+    {
+      "label": "Showcase",
+      "href": "#showcase"
+    },
+    {
+      "label": "Pricing",
+      "href": "#pricing"
+    },
+    {
+      "label": "Resources",
+      "href": "#resources"
+    },
+    {
+      "label": "Community",
+      "href": "#community"
+    },
+    {
+      "label": "Company",
+      "href": "#company"
+    }
+  ],
+  "hero": {
+    "headline": "Don't just imagine.\nCreate it.",
+    "subheadline": "From idea to characters, scripts, settings, and shots — all in one AI filmmaking studio.",
+    "primaryCta": "Start for free",
+    "secondaryCta": "Watch intro video",
+    "scriptAccent": "Ideas, Characters, Stories, Films",
+    "bubble": "Tell better stories with AI!",
+    "stats": [
+      {
+        "value": "100K+",
+        "label": "Creators & Studios"
+      },
+      {
+        "value": "2M+",
+        "label": "Videos created"
+      },
+      {
+        "value": "4.9/5",
+        "label": "User rating"
+      }
+    ],
+    "characters": [
+      {
+        "id": "thao",
+        "name": "THẢO",
+        "role": "Visual Creator",
+        "accent": "#7CFF6B"
+      },
+      {
+        "id": "dexa",
+        "name": "DEXA",
+        "role": "AI Video Creator",
+        "accent": "#B8FF3D"
+      },
+      {
+        "id": "ngoc",
+        "name": "NGỌC",
+        "role": "Filmmaker Creator",
+        "accent": "#D4FF00"
+      },
+      {
+        "id": "minh",
+        "name": "MINH",
+        "role": "EdTech Creator",
+        "accent": "#9EFF4A"
+      },
+      {
+        "id": "hai",
+        "name": "HẢI",
+        "role": "Head of Ideas",
+        "accent": "#C8FF2A"
+      },
+      {
+        "id": "ha",
+        "name": "HÀ",
+        "role": "Story Creator",
+        "accent": "#A8FF55"
+      },
+      {
+        "id": "echo",
+        "name": "ECHO",
+        "role": "AI Assistant",
+        "accent": "#BFFF00"
+      }
+    ]
+  },
+  "partners": {
+    "label": "Trusted by creators building with",
+    "items": [
+      {
+        "name": "OpenAI"
+      },
+      {
+        "name": "Runway"
+      },
+      {
+        "name": "Luma"
+      },
+      {
+        "name": "Kling"
+      },
+      {
+        "name": "Pika"
+      },
+      {
+        "name": "Stability.ai"
+      },
+      {
+        "name": "Adobe"
+      },
+      {
+        "name": "Suno"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "create",
+      "name": "CineAI Create",
+      "badge": "Fast · Simple · Powerful",
+      "description": "Create AI videos in a few clicks — from text and images to consistent characters.",
+      "features": [
+        {
+          "title": "Text to Video"
+        },
+        {
+          "title": "Image to Video"
+        },
+        {
+          "title": "Character Consistency"
+        },
+        {
+          "title": "Multiple styles & effects"
+        }
+      ],
+      "primaryCta": "Create a video",
+      "secondaryCta": "Learn more",
+      "accent": "#C8FF00"
+    },
+    {
+      "id": "studio",
+      "name": "CineAI Studio",
+      "badge": "Pro · Projects · AI Director",
+      "description": "Project-based filmmaking: scripts, storyboards, assets, and team collaboration.",
+      "features": [
+        {
+          "title": "Script & Storyboard"
+        },
+        {
+          "title": "Scene & shot management"
+        },
+        {
+          "title": "AI Director tools"
+        },
+        {
+          "title": "Collaborate & multi-platform export"
+        }
+      ],
+      "primaryCta": "Open CineAI Studio",
+      "secondaryCta": "Watch demo",
+      "accent": "#A4FF00"
+    }
+  ],
+  "showcase": {
+    "headline": "Idea to video. In minutes.",
+    "subheadline": "Explore work created by the CineAI community.",
+    "categories": [
+      "All",
+      "Short film",
+      "Ads",
+      "Music",
+      "Characters",
+      "Animation",
+      "Game",
+      "Education"
+    ],
+    "items": [
+      {
+        "id": "v1",
+        "title": "Dragon Over Mist Peak",
+        "category": "Short film",
+        "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v2",
+        "title": "Neon Alley Chase",
+        "category": "Game",
+        "thumbnail": "https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v3",
+        "title": "Brand Spot — Lumen",
+        "category": "Ads",
+        "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84781?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v4",
+        "title": "Echo of the Forest",
+        "category": "Animation",
+        "thumbnail": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v5",
+        "title": "Character Reel — Nova",
+        "category": "Characters",
+        "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v6",
+        "title": "Lesson: Space Odyssey",
+        "category": "Education",
+        "thumbnail": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "CineAI Studio",
+    "headline": "One great clip is not enough.\nBuild an entire world.",
+    "description": "Craft living AI characters, unlimited settings, and team collaboration — ready for every cinematic idea.",
+    "items": [
+      {
+        "id": "f1",
+        "title": "Living AI characters",
+        "description": "Keep faces, costumes, and emotion consistent across every shot.",
+        "icon": "character"
+      },
+      {
+        "id": "f2",
+        "title": "Unlimited settings",
+        "description": "Create new worlds, lighting, and spaces with a simple description.",
+        "icon": "scene"
+      },
+      {
+        "id": "f3",
+        "title": "Collaborate & share",
+        "description": "Work with your team, review shots, and publish across platforms.",
+        "icon": "collab"
+      },
+      {
+        "id": "f4",
+        "title": "Ready for every idea",
+        "description": "From short films and ads to education — one studio for every genre.",
+        "icon": "ideas"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "Create more. For every creator.",
+    "subheadline": "Start free, upgrade when you are ready for professional production.",
+    "yearlyDiscountLabel": "Save 21%",
+    "plans": [
+      {
+        "id": "creator",
+        "name": "Creator",
+        "priceMonthly": 19,
+        "priceYearly": 15,
+        "description": "For individuals starting with AI video creation.",
+        "features": [
+          "50 credits / month",
+          "5 projects",
+          "Standard models",
+          "Private storage"
+        ],
+        "cta": "Choose Creator"
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "priceMonthly": 49,
+        "priceYearly": 39,
+        "description": "For professional creators who need speed and quality.",
+        "features": [
+          "200 credits / month",
+          "Unlimited projects",
+          "All AI models",
+          "High-res character consistency",
+          "Commercial rights"
+        ],
+        "cta": "Choose Pro",
+        "highlighted": true,
+        "badge": "Most popular"
+      },
+      {
+        "id": "studio",
+        "name": "Studio",
+        "priceMonthly": 99,
+        "priceYearly": 78,
+        "description": "For teams and studios that need a full production pipeline.",
+        "features": [
+          "1,000 credits / month",
+          "Unlimited video & team",
+          "Advanced tools",
+          "Priority processing",
+          "Commercial & republishing rights"
+        ],
+        "cta": "Choose Studio"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "title": "A new world awaits",
+    "subtitle": "Start creating your AI film today.",
+    "button": "Start creating"
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "Products",
+        "links": [
+          {
+            "label": "CineAI Create",
+            "href": "#products"
+          },
+          {
+            "label": "CineAI Studio",
+            "href": "#products"
+          },
+          {
+            "label": "Showcase",
+            "href": "#showcase"
+          }
+        ]
+      },
+      {
+        "title": "Solutions",
+        "links": [
+          {
+            "label": "Creators",
+            "href": "#"
+          },
+          {
+            "label": "Studios",
+            "href": "#"
+          },
+          {
+            "label": "Enterprise",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Resources",
+        "links": [
+          {
+            "label": "Docs",
+            "href": "#"
+          },
+          {
+            "label": "Blog",
+            "href": "#"
+          },
+          {
+            "label": "Community",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Company",
+        "links": [
+          {
+            "label": "About us",
+            "href": "#"
+          },
+          {
+            "label": "Contact",
+            "href": "#"
+          },
+          {
+            "label": "Careers",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 CineAI. All rights reserved.",
+    "tagline": "Create Today. A Brighter Tomorrow."
+  }
+}

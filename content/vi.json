@@ -1,0 +1,406 @@
+{
+  "brand": {
+    "name": "CineAI",
+    "tagline": "AI FILMMAKING STUDIO"
+  },
+  "ui": {
+    "login": "Đăng nhập",
+    "startCreating": "Bắt đầu sáng tạo",
+    "search": "Tìm kiếm",
+    "monthly": "Tháng",
+    "yearly": "Năm",
+    "perMonth": "/tháng",
+    "andMore": "và nhiều hơn…",
+    "productsEyebrow": "Sản phẩm",
+    "productsHeadline": "Hai cách tạo phim. Một hệ sinh thái AI.",
+    "emptyShowcase": "Chưa có video trong danh mục này.",
+    "footerBlurb": "biến ý tưởng thành phim với AI.",
+    "terms": "Điều khoản dịch vụ",
+    "privacy": "Chính sách bảo mật",
+    "menu": "Menu"
+  },
+  "nav": [
+    {
+      "label": "Sản phẩm",
+      "href": "#products"
+    },
+    {
+      "label": "Showcase",
+      "href": "#showcase"
+    },
+    {
+      "label": "Bảng giá",
+      "href": "#pricing"
+    },
+    {
+      "label": "Tài nguyên",
+      "href": "#resources"
+    },
+    {
+      "label": "Cộng đồng",
+      "href": "#community"
+    },
+    {
+      "label": "Công ty",
+      "href": "#company"
+    }
+  ],
+  "hero": {
+    "headline": "Đừng chỉ tưởng tượng.\nHãy tạo ra nó.",
+    "subheadline": "Từ ý tưởng đến nhân vật, kịch bản, bối cảnh và shot — tất cả trong một studio làm phim AI.",
+    "primaryCta": "Bắt đầu miễn phí",
+    "secondaryCta": "Xem video giới thiệu",
+    "scriptAccent": "Ideas, Characters, Stories, Films",
+    "bubble": "Cùng AI kể những câu chuyện tuyệt vời hơn!",
+    "stats": [
+      {
+        "value": "100K+",
+        "label": "Nhà sáng tạo & Studio"
+      },
+      {
+        "value": "2M+",
+        "label": "Video được tạo"
+      },
+      {
+        "value": "4.9/5",
+        "label": "Đánh giá người dùng"
+      }
+    ],
+    "characters": [
+      {
+        "id": "thao",
+        "name": "THẢO",
+        "role": "Visual Creator",
+        "accent": "#7CFF6B"
+      },
+      {
+        "id": "dexa",
+        "name": "DEXA",
+        "role": "AI Video Creator",
+        "accent": "#B8FF3D"
+      },
+      {
+        "id": "ngoc",
+        "name": "NGỌC",
+        "role": "Filmmaker Creator",
+        "accent": "#D4FF00"
+      },
+      {
+        "id": "minh",
+        "name": "MINH",
+        "role": "EdTech Creator",
+        "accent": "#9EFF4A"
+      },
+      {
+        "id": "hai",
+        "name": "HẢI",
+        "role": "Head of Ideas",
+        "accent": "#C8FF2A"
+      },
+      {
+        "id": "ha",
+        "name": "HÀ",
+        "role": "Story Creator",
+        "accent": "#A8FF55"
+      },
+      {
+        "id": "echo",
+        "name": "ECHO",
+        "role": "AI Assistant",
+        "accent": "#BFFF00"
+      }
+    ]
+  },
+  "partners": {
+    "label": "Được tin dùng bởi cộng đồng sáng tạo cùng",
+    "items": [
+      {
+        "name": "OpenAI"
+      },
+      {
+        "name": "Runway"
+      },
+      {
+        "name": "Luma"
+      },
+      {
+        "name": "Kling"
+      },
+      {
+        "name": "Pika"
+      },
+      {
+        "name": "Stability.ai"
+      },
+      {
+        "name": "Adobe"
+      },
+      {
+        "name": "Suno"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "create",
+      "name": "CineAI Create",
+      "badge": "Nhanh · Đơn giản · Mạnh mẽ",
+      "description": "Tạo video AI chỉ với vài cú click — từ text, ảnh đến nhân vật nhất quán.",
+      "features": [
+        {
+          "title": "Text to Video"
+        },
+        {
+          "title": "Image to Video"
+        },
+        {
+          "title": "Character Consistency"
+        },
+        {
+          "title": "Nhiều phong cách & hiệu ứng"
+        }
+      ],
+      "primaryCta": "Tạo video ngay",
+      "secondaryCta": "Tìm hiểu thêm",
+      "accent": "#C8FF00"
+    },
+    {
+      "id": "studio",
+      "name": "CineAI Studio",
+      "badge": "Chuyên nghiệp · Dự án · Đạo diễn AI",
+      "description": "Studio làm phim theo dự án: kịch bản, storyboard, asset và cộng tác đội ngũ.",
+      "features": [
+        {
+          "title": "Script & Storyboard"
+        },
+        {
+          "title": "Quản lý bối cảnh & shot"
+        },
+        {
+          "title": "AI Director tools"
+        },
+        {
+          "title": "Cộng tác & xuất đa nền tảng"
+        }
+      ],
+      "primaryCta": "Mở CineAI Studio",
+      "secondaryCta": "Xem demo",
+      "accent": "#A4FF00"
+    }
+  ],
+  "showcase": {
+    "headline": "Ý tưởng đến video. Trong vài phút.",
+    "subheadline": "Khám phá các tác phẩm được tạo bởi cộng đồng CineAI.",
+    "categories": [
+      "Tất cả",
+      "Phim ngắn",
+      "Quảng cáo",
+      "Âm nhạc",
+      "Nhân vật",
+      "Hoạt hình",
+      "Game",
+      "Giáo dục"
+    ],
+    "items": [
+      {
+        "id": "v1",
+        "title": "Dragon Over Mist Peak",
+        "category": "Phim ngắn",
+        "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v2",
+        "title": "Neon Alley Chase",
+        "category": "Game",
+        "thumbnail": "https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v3",
+        "title": "Brand Spot — Lumen",
+        "category": "Quảng cáo",
+        "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84781?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v4",
+        "title": "Echo of the Forest",
+        "category": "Hoạt hình",
+        "thumbnail": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v5",
+        "title": "Character Reel — Nova",
+        "category": "Nhân vật",
+        "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v6",
+        "title": "Lesson: Space Odyssey",
+        "category": "Giáo dục",
+        "thumbnail": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "CineAI Studio",
+    "headline": "Một clip hay chưa đủ.\nHãy dựng cả một thế giới.",
+    "description": "Xây nhân vật sống động, bối cảnh không giới hạn và cộng tác đội ngũ — sẵn sàng cho mọi ý tưởng điện ảnh.",
+    "items": [
+      {
+        "id": "f1",
+        "title": "Nhân vật AI sống động",
+        "description": "Giữ tính nhất quán khuôn mặt, trang phục và cảm xúc xuyên suốt mọi shot.",
+        "icon": "character"
+      },
+      {
+        "id": "f2",
+        "title": "Bối cảnh không giới hạn",
+        "description": "Tạo thế giới, ánh sáng và không gian mới chỉ bằng mô tả.",
+        "icon": "scene"
+      },
+      {
+        "id": "f3",
+        "title": "Cộng tác & Chia sẻ",
+        "description": "Làm việc cùng team, review shot và xuất bản đa nền tảng.",
+        "icon": "collab"
+      },
+      {
+        "id": "f4",
+        "title": "Sẵn sàng cho mọi ý tưởng",
+        "description": "Từ phim ngắn, quảng cáo đến giáo dục — một studio cho mọi thể loại.",
+        "icon": "ideas"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "Tạo nhiều hơn. Cho mọi nhà sáng tạo.",
+    "subheadline": "Bắt đầu miễn phí, nâng cấp khi bạn sẵn sàng sản xuất chuyên nghiệp.",
+    "yearlyDiscountLabel": "Tiết kiệm 21%",
+    "plans": [
+      {
+        "id": "creator",
+        "name": "Creator",
+        "priceMonthly": 19,
+        "priceYearly": 15,
+        "description": "Dành cho cá nhân bắt đầu sáng tạo video AI.",
+        "features": [
+          "50 credits / tháng",
+          "5 dự án",
+          "Mô hình tiêu chuẩn",
+          "Lưu trữ riêng tư"
+        ],
+        "cta": "Chọn Creator"
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "priceMonthly": 49,
+        "priceYearly": 39,
+        "description": "Cho creator chuyên nghiệp cần tốc độ và chất lượng.",
+        "features": [
+          "200 credits / tháng",
+          "Dự án không giới hạn",
+          "Tất cả mô hình AI",
+          "Nhân vật độ phân giải cao",
+          "Quyền thương mại"
+        ],
+        "cta": "Chọn Pro",
+        "highlighted": true,
+        "badge": "Phổ biến nhất"
+      },
+      {
+        "id": "studio",
+        "name": "Studio",
+        "priceMonthly": 99,
+        "priceYearly": 78,
+        "description": "Cho team và studio cần quy trình sản xuất đầy đủ.",
+        "features": [
+          "1,000 credits / tháng",
+          "Video & team không giới hạn",
+          "Công cụ nâng cao",
+          "Ưu tiên xử lý",
+          "Quyền thương mại & tái xuất bản"
+        ],
+        "cta": "Chọn Studio"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "title": "A new world awaits",
+    "subtitle": "Bắt đầu sáng tạo phim AI của bạn hôm nay.",
+    "button": "Bắt đầu sáng tạo"
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "Sản phẩm",
+        "links": [
+          {
+            "label": "CineAI Create",
+            "href": "#products"
+          },
+          {
+            "label": "CineAI Studio",
+            "href": "#products"
+          },
+          {
+            "label": "Showcase",
+            "href": "#showcase"
+          }
+        ]
+      },
+      {
+        "title": "Giải pháp",
+        "links": [
+          {
+            "label": "Nhà sáng tạo",
+            "href": "#"
+          },
+          {
+            "label": "Studio",
+            "href": "#"
+          },
+          {
+            "label": "Doanh nghiệp",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Tài nguyên",
+        "links": [
+          {
+            "label": "Tài liệu",
+            "href": "#"
+          },
+          {
+            "label": "Blog",
+            "href": "#"
+          },
+          {
+            "label": "Cộng đồng",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "Công ty",
+        "links": [
+          {
+            "label": "Về chúng tôi",
+            "href": "#"
+          },
+          {
+            "label": "Liên hệ",
+            "href": "#"
+          },
+          {
+            "label": "Tuyển dụng",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 CineAI. All rights reserved.",
+    "tagline": "Create Today. A Brighter Tomorrow."
+  }
+}

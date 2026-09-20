@@ -1,0 +1,406 @@
+{
+  "brand": {
+    "name": "CineAI",
+    "tagline": "AI FILMMAKING STUDIO"
+  },
+  "ui": {
+    "login": "ចូលគណនី",
+    "startCreating": "ចាប់ផ្តើមបង្កើត",
+    "search": "ស្វែងរក",
+    "monthly": "ប្រចាំខែ",
+    "yearly": "ប្រចាំឆ្នាំ",
+    "perMonth": "/ខែ",
+    "andMore": "និងច្រើនទៀត…",
+    "productsEyebrow": "ផលិតផល",
+    "productsHeadline": "វិធីពីរដើម្បីបង្កើតភាពយន្ត។ ប្រព័ន្ធ AI មួយ។",
+    "emptyShowcase": "មិនទាន់មានវីដេអូក្នុងប្រភេទនេះទេ។",
+    "footerBlurb": "ប្រែគំនិតទៅជាភាពយន្តជាមួយ AI។",
+    "terms": "លក្ខខណ្ឌសេវាកម្ម",
+    "privacy": "គោលការណ៍ឯកជនភាព",
+    "menu": "ម៉ឺនុយ"
+  },
+  "nav": [
+    {
+      "label": "ផលិតផល",
+      "href": "#products"
+    },
+    {
+      "label": "Showcase",
+      "href": "#showcase"
+    },
+    {
+      "label": "តម្លៃ",
+      "href": "#pricing"
+    },
+    {
+      "label": "ធនធាន",
+      "href": "#resources"
+    },
+    {
+      "label": "សហគមន៍",
+      "href": "#community"
+    },
+    {
+      "label": "ក្រុមហ៊ុន",
+      "href": "#company"
+    }
+  ],
+  "hero": {
+    "headline": "កុំគ្រាន់តែស្រមៃ។\nបង្កើតវាឡើង។",
+    "subheadline": "ពីគំនិតទៅតួអង្គ ស្គ្រីប ឈុត និង shot — ទាំងអស់ក្នុងស្ទូឌីយោថតភាពយន្ត AI មួយ។",
+    "primaryCta": "ចាប់ផ្តើមឥតគិតថ្លៃ",
+    "secondaryCta": "មើលវីដេអូណែនាំ",
+    "scriptAccent": "Ideas, Characters, Stories, Films",
+    "bubble": "ប្រាប់រឿងបានប្រសើរជាងមុនជាមួយ AI!",
+    "stats": [
+      {
+        "value": "100K+",
+        "label": "អ្នកបង្កើត & ស្ទូឌីយោ"
+      },
+      {
+        "value": "2M+",
+        "label": "វីដេអូដែលបានបង្កើត"
+      },
+      {
+        "value": "4.9/5",
+        "label": "ការវាយតម្លៃអ្នកប្រើ"
+      }
+    ],
+    "characters": [
+      {
+        "id": "thao",
+        "name": "THẢO",
+        "role": "Visual Creator",
+        "accent": "#7CFF6B"
+      },
+      {
+        "id": "dexa",
+        "name": "DEXA",
+        "role": "AI Video Creator",
+        "accent": "#B8FF3D"
+      },
+      {
+        "id": "ngoc",
+        "name": "NGỌC",
+        "role": "Filmmaker Creator",
+        "accent": "#D4FF00"
+      },
+      {
+        "id": "minh",
+        "name": "MINH",
+        "role": "EdTech Creator",
+        "accent": "#9EFF4A"
+      },
+      {
+        "id": "hai",
+        "name": "HẢI",
+        "role": "Head of Ideas",
+        "accent": "#C8FF2A"
+      },
+      {
+        "id": "ha",
+        "name": "HÀ",
+        "role": "Story Creator",
+        "accent": "#A8FF55"
+      },
+      {
+        "id": "echo",
+        "name": "ECHO",
+        "role": "AI Assistant",
+        "accent": "#BFFF00"
+      }
+    ]
+  },
+  "partners": {
+    "label": "ទទួលបានការទុកចិត្តពីអ្នកបង្កើតដែលប្រើ",
+    "items": [
+      {
+        "name": "OpenAI"
+      },
+      {
+        "name": "Runway"
+      },
+      {
+        "name": "Luma"
+      },
+      {
+        "name": "Kling"
+      },
+      {
+        "name": "Pika"
+      },
+      {
+        "name": "Stability.ai"
+      },
+      {
+        "name": "Adobe"
+      },
+      {
+        "name": "Suno"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "create",
+      "name": "CineAI Create",
+      "badge": "លឿន · ងាយ · ខ្លាំង",
+      "description": "បង្កើតវីដេអូ AI ត្រឹមការចុចពីរបីដង — ពីអត្ថបទ រូបភាព ដល់តួអង្គស៊ីសង្វាក់។",
+      "features": [
+        {
+          "title": "Text to Video"
+        },
+        {
+          "title": "Image to Video"
+        },
+        {
+          "title": "Character Consistency"
+        },
+        {
+          "title": "រចនាប័ទ្ម & ផលប៉ះពាល់ច្រើន"
+        }
+      ],
+      "primaryCta": "បង្កើតវីដេអូឥឡូវ",
+      "secondaryCta": "ស្វែងយល់បន្ថែម",
+      "accent": "#C8FF00"
+    },
+    {
+      "id": "studio",
+      "name": "CineAI Studio",
+      "badge": "វិជ្ជាជីវៈ · គម្រោង · AI Director",
+      "description": "ស្ទូឌីយោថតភាពយន្តតាមគម្រោង៖ ស្គ្រីប storyboard ទ្រព្យសម្បត្តិ និងការសហការ។",
+      "features": [
+        {
+          "title": "Script & Storyboard"
+        },
+        {
+          "title": "គ្រប់គ្រងឈុត & shot"
+        },
+        {
+          "title": "AI Director tools"
+        },
+        {
+          "title": "សហការ & នាំចេញពហុវេទិកា"
+        }
+      ],
+      "primaryCta": "បើក CineAI Studio",
+      "secondaryCta": "មើលเดโม",
+      "accent": "#A4FF00"
+    }
+  ],
+  "showcase": {
+    "headline": "ពីគំនិតទៅវីដេអូ។ ក្នុងរយៈពេលប៉ុន្មាននាទី។",
+    "subheadline": "ស្វែងយល់ស្នាដៃដែលបង្កើតដោយសហគមន៍ CineAI។",
+    "categories": [
+      "ទាំងអស់",
+      "ភាពយន្តខ្លី",
+      "ផ្សាយពាណិជ្ជកម្ម",
+      "តន្ត្រី",
+      "តួអង្គ",
+      "គំនូរជីវចល",
+      "ហ្គេម",
+      "អប់រំ"
+    ],
+    "items": [
+      {
+        "id": "v1",
+        "title": "Dragon Over Mist Peak",
+        "category": "ភាពយន្តខ្លី",
+        "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v2",
+        "title": "Neon Alley Chase",
+        "category": "ហ្គេម",
+        "thumbnail": "https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v3",
+        "title": "Brand Spot — Lumen",
+        "category": "ផ្សាយពាណិជ្ជកម្ម",
+        "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84781?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v4",
+        "title": "Echo of the Forest",
+        "category": "គំនូរជីវចល",
+        "thumbnail": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v5",
+        "title": "Character Reel — Nova",
+        "category": "តួអង្គ",
+        "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v6",
+        "title": "Lesson: Space Odyssey",
+        "category": "អប់រំ",
+        "thumbnail": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "CineAI Studio",
+    "headline": "គ្លីបល្អមួយមិនគ្រប់គ្រាន់ទេ។\nសូមបង្កើតពិភពទាំងមូល។",
+    "description": "បង្កើតតួអង្គ AI រស់រវើក ឈុតគ្មានដែនកំណត់ និងការសហការក្រុម — រួចរាល់សម្រាប់គំនិតភាពយន្តគ្រប់ប្រភេទ។",
+    "items": [
+      {
+        "id": "f1",
+        "title": "តួអង្គ AI រស់រវើក",
+        "description": "រក្សាមុខ សម្លៀកបំពាក់ និងអារម្មណ៍ឱ្យស៊ីសង្វាក់គ្រប់ shot។",
+        "icon": "character"
+      },
+      {
+        "id": "f2",
+        "title": "ឈុតគ្មានដែនកំណត់",
+        "description": "បង្កើតពិភព ពន្លឺ និងលំហថ្មីត្រឹមការពិពណ៌នា។",
+        "icon": "scene"
+      },
+      {
+        "id": "f3",
+        "title": "សហការ & ចែករំលែក",
+        "description": "ធ្វើការជាមួយក្រុម ពិនិត្យ shot និងផ្សព្វផ្សាយពហុវេទិកា។",
+        "icon": "collab"
+      },
+      {
+        "id": "f4",
+        "title": "រួចរាល់សម្រាប់គ្រប់គំនិត",
+        "description": "ពីភាពយន្តខ្លី ផ្សាយពាណិជ្ជកម្ម ដល់អប់រំ — ស្ទូឌីយោមួយសម្រាប់គ្រប់ប្រភេទ។",
+        "icon": "ideas"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "បង្កើតបានច្រើនជាងមុន។ សម្រាប់អ្នកបង្កើតគ្រប់រូប។",
+    "subheadline": "ចាប់ផ្តើមឥតគិតថ្លៃ ដំឡើងកម្រិតពេលអ្នករួចរាល់សម្រាប់ផលិតកម្មវិជ្ជាជីវៈ។",
+    "yearlyDiscountLabel": "សន្សំ 21%",
+    "plans": [
+      {
+        "id": "creator",
+        "name": "Creator",
+        "priceMonthly": 19,
+        "priceYearly": 15,
+        "description": "សម្រាប់បុគ្គលដែលចាប់ផ្តើមបង្កើតវីដេអូ AI។",
+        "features": [
+          "50 credits / ខែ",
+          "5 គម្រោង",
+          "ម៉ូដែលស្តង់ដារ",
+          "ទំហំផ្ទុកឯកជន"
+        ],
+        "cta": "ជ្រើស Creator"
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "priceMonthly": 49,
+        "priceYearly": 39,
+        "description": "សម្រាប់អ្នកបង្កើតវិជ្ជាជីវៈដែលត្រូវការល្បឿន និងគុណភាព។",
+        "features": [
+          "200 credits / ខែ",
+          "គម្រោងគ្មានដែនកំណត់",
+          "ម៉ូដែល AI ទាំងអស់",
+          "តួអង្គគុណភាពខ្ពស់",
+          "សិទ្ធិពាណិជ្ជកម្ម"
+        ],
+        "cta": "ជ្រើស Pro",
+        "highlighted": true,
+        "badge": "ពេញនិយមបំផុត"
+      },
+      {
+        "id": "studio",
+        "name": "Studio",
+        "priceMonthly": 99,
+        "priceYearly": 78,
+        "description": "សម្រាប់ក្រុម និងស្ទូឌីយោដែលត្រូវការដំណើរការផលិតពេញលេញ។",
+        "features": [
+          "1,000 credits / ខែ",
+          "វីដេអូ & ក្រុមគ្មានដែនកំណត់",
+          "ឧបករណ៍កម្រិតខ្ពស់",
+          "ដំណើរការអាទិភាព",
+          "សិទ្ធិពាណិជ្ជកម្ម & បោះពុម្ពឡើងវិញ"
+        ],
+        "cta": "ជ្រើស Studio"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "title": "A new world awaits",
+    "subtitle": "ចាប់ផ្តើមបង្កើតភាពយន្ត AI របស់អ្នកថ្ងៃនេះ។",
+    "button": "ចាប់ផ្តើមបង្កើត"
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "ផលិតផល",
+        "links": [
+          {
+            "label": "CineAI Create",
+            "href": "#products"
+          },
+          {
+            "label": "CineAI Studio",
+            "href": "#products"
+          },
+          {
+            "label": "Showcase",
+            "href": "#showcase"
+          }
+        ]
+      },
+      {
+        "title": "ដំណោះស្រាយ",
+        "links": [
+          {
+            "label": "អ្នកបង្កើត",
+            "href": "#"
+          },
+          {
+            "label": "ស្ទូឌីយោ",
+            "href": "#"
+          },
+          {
+            "label": "សហគ្រាស",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "ធនធាន",
+        "links": [
+          {
+            "label": "ឯកសារ",
+            "href": "#"
+          },
+          {
+            "label": "Blog",
+            "href": "#"
+          },
+          {
+            "label": "សហគមន៍",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "ក្រុមហ៊ុន",
+        "links": [
+          {
+            "label": "អំពីយើង",
+            "href": "#"
+          },
+          {
+            "label": "ទំនាក់ទំនង",
+            "href": "#"
+          },
+          {
+            "label": "ការងារ",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 CineAI. All rights reserved.",
+    "tagline": "Create Today. A Brighter Tomorrow."
+  }
+}

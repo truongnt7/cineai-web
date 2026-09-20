@@ -1,0 +1,406 @@
+{
+  "brand": {
+    "name": "CineAI",
+    "tagline": "AI FILMMAKING STUDIO"
+  },
+  "ui": {
+    "login": "ເຂົ້າສູ່ລະບົບ",
+    "startCreating": "ເລີ່ມສ້າງ",
+    "search": "ຄົ້ນຫາ",
+    "monthly": "ລາຍເດືອນ",
+    "yearly": "ລາຍປີ",
+    "perMonth": "/ເດືອນ",
+    "andMore": "ແລະອື່ນໆ…",
+    "productsEyebrow": "ຜະລິດຕະພັນ",
+    "productsHeadline": "ສອງວິທີສ້າງຮູບເງົາ. ລະບົບນິເວດ AI ດຽວ.",
+    "emptyShowcase": "ຍັງບໍ່ມີວິດີໂອໃນໝວດນີ້.",
+    "footerBlurb": "ປ່ຽນແນວຄິດໃຫ້ເປັນຮູບເງົາດ້ວຍ AI.",
+    "terms": "ເງື່ອນໄຂການໃຊ້ບໍລິການ",
+    "privacy": "ນະໂຍບາຍຄວາມເປັນສ່ວນຕົວ",
+    "menu": "ເມນູ"
+  },
+  "nav": [
+    {
+      "label": "ຜະລິດຕະພັນ",
+      "href": "#products"
+    },
+    {
+      "label": "Showcase",
+      "href": "#showcase"
+    },
+    {
+      "label": "ລາຄາ",
+      "href": "#pricing"
+    },
+    {
+      "label": "ຊັບພະຍາກອນ",
+      "href": "#resources"
+    },
+    {
+      "label": "ຊຸມຊົນ",
+      "href": "#community"
+    },
+    {
+      "label": "ບໍລິສັດ",
+      "href": "#company"
+    }
+  ],
+  "hero": {
+    "headline": "ຢ່າພຽງແຕ່ຈິນຕະນາການ.\nສ້າງມັນຂຶ້ນມາ.",
+    "subheadline": "ຈາກແນວຄິດຫາຕົວລະຄອນ, ບົດ, ສະຖານທີ່ ແລະ shot — ທັງໝົດໃນສະຕູດິໂອສ້າງຮູບເງົາ AI ດຽວ.",
+    "primaryCta": "ເລີ່ມຟຣີ",
+    "secondaryCta": "ເບິ່ງວິດີໂອແນະນຳ",
+    "scriptAccent": "Ideas, Characters, Stories, Films",
+    "bubble": "ເລົ່າເລື່ອງທີ່ດີກວ່າດ້ວຍ AI!",
+    "stats": [
+      {
+        "value": "100K+",
+        "label": "ນັກສ້າງ & ສະຕູດິໂອ"
+      },
+      {
+        "value": "2M+",
+        "label": "ວິດີໂອທີ່ສ້າງແລ້ວ"
+      },
+      {
+        "value": "4.9/5",
+        "label": "ຄະແນນຜູ້ໃຊ້"
+      }
+    ],
+    "characters": [
+      {
+        "id": "thao",
+        "name": "THẢO",
+        "role": "Visual Creator",
+        "accent": "#7CFF6B"
+      },
+      {
+        "id": "dexa",
+        "name": "DEXA",
+        "role": "AI Video Creator",
+        "accent": "#B8FF3D"
+      },
+      {
+        "id": "ngoc",
+        "name": "NGỌC",
+        "role": "Filmmaker Creator",
+        "accent": "#D4FF00"
+      },
+      {
+        "id": "minh",
+        "name": "MINH",
+        "role": "EdTech Creator",
+        "accent": "#9EFF4A"
+      },
+      {
+        "id": "hai",
+        "name": "HẢI",
+        "role": "Head of Ideas",
+        "accent": "#C8FF2A"
+      },
+      {
+        "id": "ha",
+        "name": "HÀ",
+        "role": "Story Creator",
+        "accent": "#A8FF55"
+      },
+      {
+        "id": "echo",
+        "name": "ECHO",
+        "role": "AI Assistant",
+        "accent": "#BFFF00"
+      }
+    ]
+  },
+  "partners": {
+    "label": "ໄດ້ຮັບຄວາມໄວ້ວາງໃຈຈາກນັກສ້າງທີ່ໃຊ້",
+    "items": [
+      {
+        "name": "OpenAI"
+      },
+      {
+        "name": "Runway"
+      },
+      {
+        "name": "Luma"
+      },
+      {
+        "name": "Kling"
+      },
+      {
+        "name": "Pika"
+      },
+      {
+        "name": "Stability.ai"
+      },
+      {
+        "name": "Adobe"
+      },
+      {
+        "name": "Suno"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "create",
+      "name": "CineAI Create",
+      "badge": "ໄວ · ງ່າຍ · ມີປະສິດທິພາບ",
+      "description": "ສ້າງວິດີໂອ AI ດ້ວຍການຄລິກເລັກນ້ອຍ — ຈາກຂໍ້ຄວາມ, ຮູບພາບ ຫາຕົວລະຄອນທີ່ສອດຄ່ອງ.",
+      "features": [
+        {
+          "title": "Text to Video"
+        },
+        {
+          "title": "Image to Video"
+        },
+        {
+          "title": "Character Consistency"
+        },
+        {
+          "title": "ຫຼາຍສະໄຕລ໌ & ເອັບເຟັກ"
+        }
+      ],
+      "primaryCta": "ສ້າງວິດີໂອດຽວນີ້",
+      "secondaryCta": "ຮຽນຮູ້ເພີ່ມ",
+      "accent": "#C8FF00"
+    },
+    {
+      "id": "studio",
+      "name": "CineAI Studio",
+      "badge": "ມືອາຊີບ · ໂຄງການ · AI Director",
+      "description": "ສະຕູດິໂອສ້າງຮູບເງົາຕາມໂຄງການ: ບົດ, storyboard, asset ແລະການຮ່ວມມືທີມ.",
+      "features": [
+        {
+          "title": "Script & Storyboard"
+        },
+        {
+          "title": "ຈັດການສະຖານທີ່ & shot"
+        },
+        {
+          "title": "AI Director tools"
+        },
+        {
+          "title": "ຮ່ວມມື & ສົ່ງອອກຫຼາຍແພລດຟອມ"
+        }
+      ],
+      "primaryCta": "ເປີດ CineAI Studio",
+      "secondaryCta": "ເບິ່ງเดโม",
+      "accent": "#A4FF00"
+    }
+  ],
+  "showcase": {
+    "headline": "ຈາກແນວຄິດຫາວິດີໂອ. ພາຍໃນບໍ່ຈັກນາທີ.",
+    "subheadline": "ສຳຫຼວດຜົນງານທີ່ສ້າງໂດຍຊຸມຊົນ CineAI.",
+    "categories": [
+      "ທັງໝົດ",
+      "ຮູບເງົາສັ້ນ",
+      "ໂຄສະນາ",
+      "ດົນຕີ",
+      "ຕົວລະຄອນ",
+      "ແອນິເມຊັນ",
+      "ເກມ",
+      "ການສຶກສາ"
+    ],
+    "items": [
+      {
+        "id": "v1",
+        "title": "Dragon Over Mist Peak",
+        "category": "ຮູບເງົາສັ້ນ",
+        "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v2",
+        "title": "Neon Alley Chase",
+        "category": "ເກມ",
+        "thumbnail": "https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v3",
+        "title": "Brand Spot — Lumen",
+        "category": "ໂຄສະນາ",
+        "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84781?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v4",
+        "title": "Echo of the Forest",
+        "category": "ແອນິເມຊັນ",
+        "thumbnail": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v5",
+        "title": "Character Reel — Nova",
+        "category": "ຕົວລະຄອນ",
+        "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v6",
+        "title": "Lesson: Space Odyssey",
+        "category": "ການສຶກສາ",
+        "thumbnail": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "CineAI Studio",
+    "headline": "ຄລິບດີໆຄັ້ງດຽວຍັງບໍ່ພຽງພໍ.\nສ້າງທັງໂລກ.",
+    "description": "ສ້າງຕົວລະຄອນ AI ທີ່ມີຊີວິດ, ສະຖານທີ່ບໍ່ຈຳກັດ ແລະການຮ່ວມມືທີມ — ພ້ອມສຳລັບທຸກແນວຄິດເອງສະນະ.",
+    "items": [
+      {
+        "id": "f1",
+        "title": "ຕົວລະຄອນ AI ທີ່ມີຊີວິດ",
+        "description": "ຮັກສາໃບໜ້າ, ເຄື່ອງແຕ່ງ ແລະອາລົມໃຫ້ສອດຄ່ອງໃນທຸກ shot.",
+        "icon": "character"
+      },
+      {
+        "id": "f2",
+        "title": "ສະຖານທີ່ບໍ່ຈຳກັດ",
+        "description": "ສ້າງໂລກ, ແສງ ແລະພື້ນທີ່ໃໝ່ດ້ວຍຄຳອະທິບາຍ.",
+        "icon": "scene"
+      },
+      {
+        "id": "f3",
+        "title": "ຮ່ວມມື & ແບ່ງປັນ",
+        "description": "ເຮັດວຽກກັບທີມ, ກວດ shot ແລະເຜີຍແຜ່ຫຼາຍແພລດຟອມ.",
+        "icon": "collab"
+      },
+      {
+        "id": "f4",
+        "title": "ພ້ອມສຳລັບທຸກແນວຄິດ",
+        "description": "ຈາກຮູບເງົາສັ້ນ, ໂຄສະນາ ຫາການສຶກສາ — ສະຕູດິໂອດຽວສຳລັບທຸກປະເພດ.",
+        "icon": "ideas"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "ສ້າງໄດ້ຫຼາຍຂຶ້ນ. ສຳລັບທຸກນັກສ້າງ.",
+    "subheadline": "ເລີ່ມຟຣີ, ອັບເກຣດເມື່ອພ້ອມຜະລິດແບບມືອາຊີບ.",
+    "yearlyDiscountLabel": "ປະຢັດ 21%",
+    "plans": [
+      {
+        "id": "creator",
+        "name": "Creator",
+        "priceMonthly": 19,
+        "priceYearly": 15,
+        "description": "ສຳລັບບຸກຄົນທີ່ເລີ່ມສ້າງວິດີໂອ AI.",
+        "features": [
+          "50 credits / ເດືອນ",
+          "5 ໂຄງການ",
+          "ໂມເດລມາດຕະຖານ",
+          "ການເກັບຂໍ້ມູນສ່ວນຕົວ"
+        ],
+        "cta": "ເລືອກ Creator"
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "priceMonthly": 49,
+        "priceYearly": 39,
+        "description": "ສຳລັບນັກສ້າງມືອາຊີບທີ່ຕ້ອງການຄວາມໄວ ແລະຄຸນນະພາບ.",
+        "features": [
+          "200 credits / ເດືອນ",
+          "ໂຄງການບໍ່ຈຳກັດ",
+          "ໂມເດລ AI ທັງໝົດ",
+          "ຕົວລະຄອນຄວາມລະອຽດສູງ",
+          "ສິດທາງການຄ້າ"
+        ],
+        "cta": "ເລືອກ Pro",
+        "highlighted": true,
+        "badge": "ຍອດນິຍົມ"
+      },
+      {
+        "id": "studio",
+        "name": "Studio",
+        "priceMonthly": 99,
+        "priceYearly": 78,
+        "description": "ສຳລັບທີມ ແລະສະຕູດິໂອທີ່ຕ້ອງການຂະບວນການຜະລິດຄົບວົງຈອນ.",
+        "features": [
+          "1,000 credits / ເດືອນ",
+          "ວິດີໂອ & ທີມບໍ່ຈຳກັດ",
+          "ເຄື່ອງມືຂັ້ນສູງ",
+          "ປະມວນຜົນລຳດັບກ່ອນ",
+          "ສິດທາງການຄ້າ & ເຜີຍແຜ່ຄືນ"
+        ],
+        "cta": "ເລືອກ Studio"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "title": "A new world awaits",
+    "subtitle": "ເລີ່ມສ້າງຮູບເງົາ AI ຂອງທ່ານມື້ນີ້.",
+    "button": "ເລີ່ມສ້າງ"
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "ຜະລິດຕະພັນ",
+        "links": [
+          {
+            "label": "CineAI Create",
+            "href": "#products"
+          },
+          {
+            "label": "CineAI Studio",
+            "href": "#products"
+          },
+          {
+            "label": "Showcase",
+            "href": "#showcase"
+          }
+        ]
+      },
+      {
+        "title": "ວິທີແກ້ໄຂ",
+        "links": [
+          {
+            "label": "ນັກສ້າງ",
+            "href": "#"
+          },
+          {
+            "label": "ສະຕູດິໂອ",
+            "href": "#"
+          },
+          {
+            "label": "ວິສາຫະກິດ",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "ຊັບພະຍາກອນ",
+        "links": [
+          {
+            "label": "ເອກະສານ",
+            "href": "#"
+          },
+          {
+            "label": "Blog",
+            "href": "#"
+          },
+          {
+            "label": "ຊຸມຊົນ",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "ບໍລິສັດ",
+        "links": [
+          {
+            "label": "ກ່ຽວກັບພວກເຮົາ",
+            "href": "#"
+          },
+          {
+            "label": "ຕິດຕໍ່",
+            "href": "#"
+          },
+          {
+            "label": "ຮັບສະໝັກ",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 CineAI. All rights reserved.",
+    "tagline": "Create Today. A Brighter Tomorrow."
+  }
+}

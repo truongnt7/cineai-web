@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #050505;
+  --bg-elevated: #0c0c0c;
+  --bg-panel: #121212;
+  --bg-soft: #1a1a1a;
+  --line: rgba(255, 255, 255, 0.08);
+  --text: #f5f5f5;
+  --text-muted: #9a9a9a;
+  --brand: #c8ff00;
+  --brand-deep: #a4ff00;
+  --brand-soft: rgba(200, 255, 0, 0.14);
+  --brand-glow: rgba(200, 255, 0, 0.35);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-bg-panel: var(--bg-panel);
+  --color-bg-soft: var(--bg-soft);
+  --color-line: var(--line);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-brand: var(--brand);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-soft: var(--brand-soft);
+  --color-brand-glow: var(--brand-glow);
+  --font-sans: var(--font-sora);
+  --font-display: var(--font-syne);
+  --font-script: var(--font-caveat);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%, rgba(200, 255, 0, 0.08), transparent 55%),
+    radial-gradient(ellipse 40% 30% at 90% 20%, rgba(164, 255, 0, 0.05), transparent 50%),
+    var(--bg);
+  color: var(--text);
+  font-family: var(--font-sora), var(--font-noto-lao), var(--font-noto-khmer),
+    var(--font-noto-myanmar), sans-serif;
+}
+
+html[data-locale="lo"] body {
+  font-family: var(--font-noto-lao), var(--font-sora), sans-serif;
+}
+
+html[data-locale="km"] body {
+  font-family: var(--font-noto-khmer), var(--font-sora), sans-serif;
+}
+
+html[data-locale="my"] body {
+  font-family: var(--font-noto-myanmar), var(--font-sora), sans-serif;
+}
+
+::selection {
+  background: var(--brand);
+  color: #050505;
+}
+
+.font-display {
+  font-family: var(--font-syne), sans-serif;
+}
+
+.font-script {
+  font-family: var(--font-caveat), cursive;
+}
+
+.brand-gradient {
+  background: linear-gradient(135deg, #a4ff00 0%, #d4ff00 45%, #c8ff00 100%);
+}
+
+.text-brand-gradient {
+  background: linear-gradient(135deg, #a4ff00 0%, #d4ff00 50%, #c8ff00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #b8ff00, #d4ff00);
+  color: #050505;
+  font-weight: 700;
+  padding: 0.85rem 1.4rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, filter 0.25s ease;
+  box-shadow: 0 0 0 0 var(--brand-glow);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+  box-shadow: 0 10px 30px -8px var(--brand-glow);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text);
+  font-weight: 600;
+  padding: 0.85rem 1.4rem;
+  transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+}
+
+.btn-secondary:hover {
+  border-color: rgba(200, 255, 0, 0.35);
+  background: rgba(200, 255, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+@keyframes float-y {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(200, 255, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 28px 4px rgba(200, 255, 0, 0.28);
+  }
+}
+
+.animate-float {
+  animation: float-y 5s ease-in-out infinite;
+}
+
+.animate-rise {
+  animation: rise-in 0.8s ease both;
+}
+
+.animate-glow {
+  animation: pulse-glow 3.2s ease-in-out infinite;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 3rem;
+  width: max-content;
+  animation: marquee 28s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.noise-overlay::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}

@@ -1,0 +1,406 @@
+{
+  "brand": {
+    "name": "CineAI",
+    "tagline": "AI FILMMAKING STUDIO"
+  },
+  "ui": {
+    "login": "အကောင့်ဝင်ရန်",
+    "startCreating": "ဖန်တီးမှု စတင်ရန်",
+    "search": "ရှာဖွေရန်",
+    "monthly": "လစဉ်",
+    "yearly": "နှစ်စဉ်",
+    "perMonth": "/လ",
+    "andMore": "နှင့် အခြား…",
+    "productsEyebrow": "ထုတ်ကုန်များ",
+    "productsHeadline": "ရုပ်ရှင်ဖန်တီးနည်း နှစ်မျိုး။ AI ဂေဟစနစ် တစ်ခု။",
+    "emptyShowcase": "ဤအမျိုးအစားတွင် ဗီဒီယို မရှိသေးပါ။",
+    "footerBlurb": "စိတ်ကူးများကို AI ဖြင့် ရုပ်ရှင်အဖြစ် ပြောင်းလဲပါ။",
+    "terms": "ဝန်ဆောင်မှု စည်းကမ်းများ",
+    "privacy": "ကိုယ်ရေးအချက်အလက် မူဝါဒ",
+    "menu": "မီနူး"
+  },
+  "nav": [
+    {
+      "label": "ထုတ်ကုန်များ",
+      "href": "#products"
+    },
+    {
+      "label": "Showcase",
+      "href": "#showcase"
+    },
+    {
+      "label": "စျေးနှုန်း",
+      "href": "#pricing"
+    },
+    {
+      "label": "အရင်းအမြစ်များ",
+      "href": "#resources"
+    },
+    {
+      "label": "အသိုင်းအဝိုင်း",
+      "href": "#community"
+    },
+    {
+      "label": "ကုမ္ပဏီ",
+      "href": "#company"
+    }
+  ],
+  "hero": {
+    "headline": "စိတ်ကူးယဉ်ရုံသာ မနေပါနှင့်။\nဖန်တီးလိုက်ပါ။",
+    "subheadline": "စိတ်ကူးမှ ဇာတ်ကောင်၊ ဇာတ်ညွှန်း၊ နောက်ခံနှင့် shot အထိ — AI ရုပ်ရှင်စတူဒီယို တစ်ခုတည်းတွင်။",
+    "primaryCta": "အခမဲ့ စတင်ရန်",
+    "secondaryCta": "မိတ်ဆက်ဗီဒီယို ကြည့်ရန်",
+    "scriptAccent": "Ideas, Characters, Stories, Films",
+    "bubble": "AI ဖြင့် ပိုမိုကောင်းမွန်သော ဇာတ်လမ်းများ ပြောပါ!",
+    "stats": [
+      {
+        "value": "100K+",
+        "label": "ဖန်တီးသူများ & စတူဒီယိုများ"
+      },
+      {
+        "value": "2M+",
+        "label": "ဖန်တီးထားသော ဗီဒီယိုများ"
+      },
+      {
+        "value": "4.9/5",
+        "label": "အသုံးပြုသူ အဆင့်သတ်မှတ်ချက်"
+      }
+    ],
+    "characters": [
+      {
+        "id": "thao",
+        "name": "THẢO",
+        "role": "Visual Creator",
+        "accent": "#7CFF6B"
+      },
+      {
+        "id": "dexa",
+        "name": "DEXA",
+        "role": "AI Video Creator",
+        "accent": "#B8FF3D"
+      },
+      {
+        "id": "ngoc",
+        "name": "NGỌC",
+        "role": "Filmmaker Creator",
+        "accent": "#D4FF00"
+      },
+      {
+        "id": "minh",
+        "name": "MINH",
+        "role": "EdTech Creator",
+        "accent": "#9EFF4A"
+      },
+      {
+        "id": "hai",
+        "name": "HẢI",
+        "role": "Head of Ideas",
+        "accent": "#C8FF2A"
+      },
+      {
+        "id": "ha",
+        "name": "HÀ",
+        "role": "Story Creator",
+        "accent": "#A8FF55"
+      },
+      {
+        "id": "echo",
+        "name": "ECHO",
+        "role": "AI Assistant",
+        "accent": "#BFFF00"
+      }
+    ]
+  },
+  "partners": {
+    "label": "ဖန်တီးသူများ ယုံကြည်စွာ အသုံးပြုနေသော",
+    "items": [
+      {
+        "name": "OpenAI"
+      },
+      {
+        "name": "Runway"
+      },
+      {
+        "name": "Luma"
+      },
+      {
+        "name": "Kling"
+      },
+      {
+        "name": "Pika"
+      },
+      {
+        "name": "Stability.ai"
+      },
+      {
+        "name": "Adobe"
+      },
+      {
+        "name": "Suno"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": "create",
+      "name": "CineAI Create",
+      "badge": "မြန် · ရိုးရှင်း · အားကောင်း",
+      "description": "စာသား၊ ပုံရိပ်မှ တစ်သမတ်တည်းသော ဇာတ်ကောင်အထိ — ကလစ်အနည်းငယ်ဖြင့် AI ဗီဒီယို ဖန်တီးပါ။",
+      "features": [
+        {
+          "title": "Text to Video"
+        },
+        {
+          "title": "Image to Video"
+        },
+        {
+          "title": "Character Consistency"
+        },
+        {
+          "title": "စတိုင်များနှင့် အထူးပြုလုပ်ချက်များ"
+        }
+      ],
+      "primaryCta": "ဗီဒီယို ချက်ချင်းဖန်တီးရန်",
+      "secondaryCta": "ပိုမိုလေ့လာရန်",
+      "accent": "#C8FF00"
+    },
+    {
+      "id": "studio",
+      "name": "CineAI Studio",
+      "badge": "ပရော်ဖက်ရှင်နယ် · ပရောဂျက် · AI Director",
+      "description": "ပရောဂျက်အခြေခံ ရုပ်ရှင်ဖန်တီးမှု- ဇာတ်ညွှန်း၊ storyboard၊ asset နှင့် အဖွဲ့ပူးပေါင်းဆောင်ရွက်မှု။",
+      "features": [
+        {
+          "title": "Script & Storyboard"
+        },
+        {
+          "title": "နောက်ခံနှင့် shot စီမံခန့်ခွဲမှု"
+        },
+        {
+          "title": "AI Director tools"
+        },
+        {
+          "title": "ပူးပေါင်းဆောင်ရွက်မှုနှင့် platform မျိုးစုံ တင်ပို့မှု"
+        }
+      ],
+      "primaryCta": "CineAI Studio ဖွင့်ရန်",
+      "secondaryCta": "Demo ကြည့်ရန်",
+      "accent": "#A4FF00"
+    }
+  ],
+  "showcase": {
+    "headline": "စိတ်ကူးမှ ဗီဒီယိုသို့။ မိနစ်အနည်းငယ်အတွင်း။",
+    "subheadline": "CineAI အသိုင်းအဝိုင်းက ဖန်တီးထားသော လက်ရာများကို ရှာဖွေပါ။",
+    "categories": [
+      "အားလုံး",
+      "ရုပ်ရှင်တို",
+      "ကြော်ငြာ",
+      "ဂီတ",
+      "ဇာတ်ကောင်",
+      "ကာတွန်း",
+      "ဂိမ်း",
+      "ပညာရေး"
+    ],
+    "items": [
+      {
+        "id": "v1",
+        "title": "Dragon Over Mist Peak",
+        "category": "ရုပ်ရှင်တို",
+        "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v2",
+        "title": "Neon Alley Chase",
+        "category": "ဂိမ်း",
+        "thumbnail": "https://images.unsplash.com/photo-1535016120720-40c646be5580?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v3",
+        "title": "Brand Spot — Lumen",
+        "category": "ကြော်ငြာ",
+        "thumbnail": "https://images.unsplash.com/photo-1485846234645-a62644f84781?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v4",
+        "title": "Echo of the Forest",
+        "category": "ကာတွန်း",
+        "thumbnail": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v5",
+        "title": "Character Reel — Nova",
+        "category": "ဇာတ်ကောင်",
+        "thumbnail": "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=800&q=80"
+      },
+      {
+        "id": "v6",
+        "title": "Lesson: Space Odyssey",
+        "category": "ပညာရေး",
+        "thumbnail": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=800&q=80"
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "CineAI Studio",
+    "headline": "ကောင်းမွန်သော clip တစ်ခု မလုံလောက်ပါ။\nကမ္ဘာတစ်ခုလုံးကို တည်ဆောက်ပါ။",
+    "description": "သက်ရှိထင်ရှား AI ဇာတ်ကောင်များ၊ အကန့်အသတ်မရှိ နောက်ခံများနှင့် အဖွဲ့ပူးပေါင်းဆောင်ရွက်မှု — ရုပ်ရှင်စိတ်ကူးတိုင်းအတွက် အသင့်။",
+    "items": [
+      {
+        "id": "f1",
+        "title": "သက်ရှိထင်ရှား AI ဇာတ်ကောင်များ",
+        "description": "မျက်နှာ၊ ဝတ်စုံနှင့် စိတ်ခံစားမှုကို shot တိုင်းတွင် တစ်သမတ်တည်း ထိန်းသိမ်းပါ။",
+        "icon": "character"
+      },
+      {
+        "id": "f2",
+        "title": "အကန့်အသတ်မရှိ နောက်ခံများ",
+        "description": "ဖော်ပြချက်ဖြင့် ကမ္ဘာ၊ အလင်းနှင့် နေရာအသစ်များ ဖန်တီးပါ။",
+        "icon": "scene"
+      },
+      {
+        "id": "f3",
+        "title": "ပူးပေါင်းဆောင်ရွက်မှု & မျှဝေမှု",
+        "description": "အဖွဲ့နှင့် အလုပ်လုပ်၊ shot များကို ပြန်လည်သုံးသပ်ပြီး platform မျိုးစုံတွင် ထုတ်ဝေပါ။",
+        "icon": "collab"
+      },
+      {
+        "id": "f4",
+        "title": "စိတ်ကူးတိုင်းအတွက် အသင့်",
+        "description": "ရုပ်ရှင်တို၊ ကြော်ငြာမှ ပညာရေးအထိ — အမျိုးအစားတိုင်းအတွက် စတူဒီယို တစ်ခု။",
+        "icon": "ideas"
+      }
+    ]
+  },
+  "pricing": {
+    "headline": "ပိုမိုဖန်တီးပါ။ ဖန်တီးသူတိုင်းအတွက်။",
+    "subheadline": "အခမဲ့ စတင်ပြီး ပရော်ဖက်ရှင်နယ် ထုတ်လုပ်ရန် အသင့်ဖြစ်သောအခါ အဆင့်မြှင့်ပါ။",
+    "yearlyDiscountLabel": "21% သက်သာ",
+    "plans": [
+      {
+        "id": "creator",
+        "name": "Creator",
+        "priceMonthly": 19,
+        "priceYearly": 15,
+        "description": "AI ဗီဒီယို ဖန်တီးမှု စတင်သူ တစ်ဦးချင်းအတွက်။",
+        "features": [
+          "50 credits / လ",
+          "ပရောဂျက် ၅ ခု",
+          "စံမော်ဒယ်များ",
+          "သီးသန့် သိုလှောင်မှု"
+        ],
+        "cta": "Creator ရွေးရန်"
+      },
+      {
+        "id": "pro",
+        "name": "Pro",
+        "priceMonthly": 49,
+        "priceYearly": 39,
+        "description": "အမြန်နှုန်းနှင့် အရည်အသွေး လိုအပ်သော ပရော်ဖက်ရှင်နယ် ဖန်တီးသူများအတွက်။",
+        "features": [
+          "200 credits / လ",
+          "ပရောဂျက် အကန့်အသတ်မရှိ",
+          "AI မော်ဒယ်အားလုံး",
+          "မြင့်မားသော ကြည်လင်ပြတ်သားမှု ဇာတ်ကောင်",
+          "စီးပွားရေး အခွင့်အရေး"
+        ],
+        "cta": "Pro ရွေးရန်",
+        "highlighted": true,
+        "badge": "လူကြိုက်အများဆုံး"
+      },
+      {
+        "id": "studio",
+        "name": "Studio",
+        "priceMonthly": 99,
+        "priceYearly": 78,
+        "description": "ထုတ်လုပ်ရေး လုပ်ငန်းစဉ် အပြည့်အဝ လိုအပ်သော အဖွဲ့နှင့် စတူဒီယိုများအတွက်။",
+        "features": [
+          "1,000 credits / လ",
+          "ဗီဒီယို & အဖွဲ့ အကန့်အသတ်မရှိ",
+          "အဆင့်မြင့် ကိရိယာများ",
+          "ဦးစားပေး စီမံဆောင်ရွက်မှု",
+          "စီးပွားရေး & ပြန်လည်ထုတ်ဝေခွင့်"
+        ],
+        "cta": "Studio ရွေးရန်"
+      }
+    ]
+  },
+  "ctaBanner": {
+    "title": "A new world awaits",
+    "subtitle": "သင့် AI ရုပ်ရှင်ကို ယနေ့ စတင်ဖန်တီးပါ။",
+    "button": "ဖန်တီးမှု စတင်ရန်"
+  },
+  "footer": {
+    "columns": [
+      {
+        "title": "ထုတ်ကုန်များ",
+        "links": [
+          {
+            "label": "CineAI Create",
+            "href": "#products"
+          },
+          {
+            "label": "CineAI Studio",
+            "href": "#products"
+          },
+          {
+            "label": "Showcase",
+            "href": "#showcase"
+          }
+        ]
+      },
+      {
+        "title": "ဖြေရှင်းချက်များ",
+        "links": [
+          {
+            "label": "ဖန်တီးသူများ",
+            "href": "#"
+          },
+          {
+            "label": "စတူဒီယိုများ",
+            "href": "#"
+          },
+          {
+            "label": "လုပ်ငန်းကြီးများ",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "အရင်းအမြစ်များ",
+        "links": [
+          {
+            "label": "စာရွက်စာတမ်းများ",
+            "href": "#"
+          },
+          {
+            "label": "Blog",
+            "href": "#"
+          },
+          {
+            "label": "အသိုင်းအဝိုင်း",
+            "href": "#"
+          }
+        ]
+      },
+      {
+        "title": "ကုမ္ပဏီ",
+        "links": [
+          {
+            "label": "ကျွန်ုပ်တို့အကြောင်း",
+            "href": "#"
+          },
+          {
+            "label": "ဆက်သွယ်ရန်",
+            "href": "#"
+          },
+          {
+            "label": "အလုပ်အကိုင်",
+            "href": "#"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2026 CineAI. All rights reserved.",
+    "tagline": "Create Today. A Brighter Tomorrow."
+  }
+}
